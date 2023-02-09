@@ -38,3 +38,12 @@ away from shore.
 3. Shoreline samples were by scooping water from the top and bottom of an area with a container taped to a yardstick
 4. Open water samples were taken by kayaking out roughly a few thousand feet, then placing a testing strip directly in the water at the surface and using the deep-water collector to get a sample from further down in the water column
 5.Coordinates were taken at each area once a sample was taken
+<br>
+<br>
+
+TO BE COMPLETED:
+1. import data
+2. GIS - create maps for testing sites
+3. analyze data for signifigance (t-test, chi-squared)
+4. create dashboard for results
+5. update readme with screenshots
