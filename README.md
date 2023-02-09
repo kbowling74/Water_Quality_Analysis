@@ -1,7 +1,7 @@
 not completed 
 # Percy_Priest_Water_Quality_Analysis
 
-An analysis was conducted regarding the water quality at 5 marinas located at Percy Priest Lake. 
+An analysis of the water quality at 5 marinas located at Percy Priest Lake. 
 
 ## Overview
 J. Percy Priest Reservoir and Dam, located near Nashville, TN is a man made fresh-water reservoir and dam. There are 14,200 acres of 
@@ -13,12 +13,12 @@ Pollutants are significantly higher and more prevelant at marinas and boat ramps
 away from shore.
 
 ### Tools
-Excel
-Python
-Pandas
-Jupyter Notebook
-Plotly
-Seaborn
+-Excel
+-Python
+-Pandas
+-Jupyter Notebook
+-Plotly
+-Seaborn
 
 ## Analysis
 
