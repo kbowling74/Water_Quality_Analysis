@@ -13,12 +13,12 @@ Pollutants are significantly higher and more prevelant at marinas and boat ramps
 away from shore.
 
 ### Tools
--Excel
--Python
--Pandas
--Jupyter Notebook
--Plotly
--Seaborn
+- Excel
+- Python
+- Pandas
+- Jupyter Notebook
+- Plotly
+- Seaborn
 
 ## Analysis
 
