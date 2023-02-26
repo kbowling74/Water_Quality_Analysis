@@ -53,22 +53,13 @@ my_t_test <- function(df1, df2) {
 }
 
 # run ttest function
-results <- my_t_test(Shoreline[, -1], OpenWater[, -1])
+results <- my_t_test(Shoreline, OpenWater)
 
 # view results
 results
 
 # drop manganese from results dataframe
-results_df <- results
+results_df <- results[-15,]
 results_df
-
-
-
-
-
-
-
-
-
 
 
