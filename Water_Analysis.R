@@ -62,4 +62,31 @@ results
 results_df <- results[-15,]
 results_df
 
+# write results_df to csv file
+write.csv(results_df,file='Desktop/Personal Projects/Water_Quality_Analysis/Resources/results_df.csv', row.names = FALSE)
+
+# remove manganese from Shoreline and OpenWater dfs
+OpenWater_df <- OpenWater[,-16]
+OpenWater_df
+
+Shoreline_df <- Shoreline[,-16]
+Shoreline_df
+
+# write OpenWater_df and Shoreline_df to csv file
+write.csv(OpenWater_df,file='Desktop/Personal Projects/Water_Quality_Analysis/Resources/OpenWater_df.csv', row.names = FALSE)
+
+write.csv(Shoreline_df,file='Desktop/Personal Projects/Water_Quality_Analysis/Resources/Shoreline_df.csv', row.names = FALSE)
+
+# clean Lake_info data into new df
+Lake_info_df <- Lake_info[,-c(4,5,8,9)]
+Lake_info_df
+
+# write lake_info_df to csv file
+write.csv(Lake_info_df,file='Desktop/Personal Projects/Water_Quality_Analysis/Resources/Lake_info_df.csv', row.names = FALSE)
+
+
+
+
+
+
 
