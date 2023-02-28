@@ -3,6 +3,9 @@ not completed
 
 An analysis of the water quality at 5 marinas located at Percy Priest Lake. 
 
+## Tableau Public Link
+https://public.tableau.com/app/profile/kayla.bowling/viz/Water_Quality_Analysis/Sheet1?publish=yes
+
 ## Overview
 J. Percy Priest Reservoir and Dam, located near Nashville, TN is a man made fresh-water reservoir and dam. There are 14,200 acres of 
 water and 18,852 acres of public land. The reservoir and dam were originally intended as a flood control measure but instead became 
@@ -14,11 +17,8 @@ away from shore.
 
 ### Tools
 - Excel
-- Python
-- Pandas
-- Jupyter Notebook
-- Plotly
-- Seaborn
+- R Studio 
+- Tableau 
 
 ## Analysis
 
@@ -29,8 +29,8 @@ away from shore.
 - 4 samples taken at each site; one at surface and one from bottom of water column for both open water and shoreline
 - Each sample logged with location and descriptive details
 - Each sample was tested and logged with results for pollutants found
-- GIS was used to map locations of sample sites
-- Excel, Pandas, Jupyter Notebook were used to analyze data
+- Tableau was used to map locations of sample sites
+- Excel and R studio were used to analyze data
 
 ### Procedure (for collecting samples)
 1. All samples were tested as soon as they were collected to ensure accuracy
@@ -42,8 +42,7 @@ away from shore.
 <br>
 
 TO BE COMPLETED:
-1. import data
-2. GIS - create maps for testing sites
-3. analyze data for signifigance (t-test, chi-squared)
-4. create dashboard for results
-5. update readme with screenshots
+1. Obtain EPA standards in correct format
+2. Tableau - add results and t-test visualization
+3. Add EPA accepted standards to visualization
+4. update readme with screenshots
