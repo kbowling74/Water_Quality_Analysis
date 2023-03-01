@@ -43,6 +43,8 @@ away from shore.
 
 TO BE COMPLETED:
 1. Obtain EPA standards in correct format
-2. Tableau - add results and t-test visualization
+2. Tableau:
+  - add results to first sheet
+  - add filter for each location, type, and depth fo each sample
 3. Add EPA accepted standards to visualization
 4. update readme with screenshots
