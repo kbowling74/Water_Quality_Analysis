@@ -41,6 +41,12 @@ away from shore.
 <br>
 <br>
 
+### Tableau Screenshots
+Early version of map allows for location details (lat, long, location number) when hovered over. Also filtered plot colors to distinguish shoreline and open water locations. 
+
+![Screen Shot 2023-03-01 at 8 57 54 PM](https://user-images.githubusercontent.com/106560606/222320047-5725b099-6a9a-4bea-9210-dac19e822154.png)
+
+
 TO BE COMPLETED:
 1. Obtain EPA standards in correct format
 2. Tableau:
