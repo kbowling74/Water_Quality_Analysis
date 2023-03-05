@@ -46,6 +46,9 @@ Early version of map allows for location details (lat, long, location number) wh
 
 ![Screen Shot 2023-03-01 at 8 57 54 PM](https://user-images.githubusercontent.com/106560606/222320047-5725b099-6a9a-4bea-9210-dac19e822154.png)
 
+Early version of graphs showing results for each sample based on location, type (shoreline or open water), and depth. 
+<img width="1092" alt="Screen Shot 2023-03-05 at 5 10 57 PM" src="https://user-images.githubusercontent.com/106560606/222991403-672f810c-2d44-4824-8c20-26691df14df0.png">
+
 
 TO BE COMPLETED:
 1. Obtain EPA standards in correct format
