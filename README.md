@@ -53,7 +53,7 @@ Early version of graphs showing results for each sample based on location, type 
 TO BE COMPLETED:
 1. Obtain EPA standards in correct format
 2. Tableau:
-  - add results to first sheet
-  - add filter for each location, type, and depth fo each sample
+  - add sheet for location name as opposed to LOC 1, etc.
+  - customize charts for open vs shoreline samples (currently orange and blue)
 3. Add EPA accepted standards to visualization
 4. update readme with screenshots
