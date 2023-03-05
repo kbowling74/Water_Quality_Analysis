@@ -56,4 +56,6 @@ TO BE COMPLETED:
   - add sheet for location name as opposed to LOC 1, etc.
   - customize charts for open vs shoreline samples (currently orange and blue)
 3. Add EPA accepted standards to visualization
-4. update readme with screenshots
+4. update readme with screenshots from Tableau
+5. Create seperate doc for detailed methodology
+6. Add R screenshots of t-test results to readme 
