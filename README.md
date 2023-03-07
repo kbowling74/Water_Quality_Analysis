@@ -49,6 +49,9 @@ Early version of map allows for location details (lat, long, location number) wh
 Early version of graphs showing results for each sample based on location, type (shoreline or open water), and depth. 
 <img width="1092" alt="Screen Shot 2023-03-05 at 5 10 57 PM" src="https://user-images.githubusercontent.com/106560606/222991403-672f810c-2d44-4824-8c20-26691df14df0.png">
 
+Early version of Mapbox map for dashboard background
+<img width="1092" alt="Screen Shot 2023-03-06 at 9 13 57 PM" src="https://user-images.githubusercontent.com/106560606/223311306-c907d4dc-11f7-4560-bce3-a5632e1cfe78.png">
+
 
 TO BE COMPLETED:
 1. Obtain EPA standards in correct format
