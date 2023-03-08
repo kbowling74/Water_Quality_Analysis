@@ -52,12 +52,20 @@ Early version of graphs showing results for each sample based on location, type 
 Early version of Mapbox map for dashboard background
 <img width="1092" alt="Screen Shot 2023-03-06 at 9 13 57 PM" src="https://user-images.githubusercontent.com/106560606/223311306-c907d4dc-11f7-4560-bce3-a5632e1cfe78.png">
 
+Improved version of the Mapbox map with darker roads and changed fonts
+<img width="1092" alt="Screen Shot 2023-03-07 at 8 20 49 PM" src="https://user-images.githubusercontent.com/106560606/223603245-8dde0fe2-a24a-41f2-a3ab-e99687374b98.png">
+
+Early Version of Dashboard
+![Screen Shot 2023-03-07 at 8 23 52 PM](https://user-images.githubusercontent.com/106560606/223603391-c9521d80-11ca-49f1-949c-5fa5cbb25b64.png)
+
+
 
 TO BE COMPLETED:
 1. Obtain EPA standards in correct format
 2. Tableau:
   - add sheet for location name as opposed to LOC 1, etc.
   - customize charts for open vs shoreline samples (currently orange and blue)
+  - adjust dashboard layout for each location type (open vs shoreline) graphs to show when hovered over
 3. Add EPA accepted standards to visualization
 4. update readme with screenshots from Tableau
 5. Create seperate doc for detailed methodology
