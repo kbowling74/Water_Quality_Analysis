@@ -58,6 +58,8 @@ Improved version of the Mapbox map with darker roads and changed fonts
 Early Version of Dashboard
 ![Screen Shot 2023-03-07 at 8 23 52 PM](https://user-images.githubusercontent.com/106560606/223603391-c9521d80-11ca-49f1-949c-5fa5cbb25b64.png)
 
+Updated version of Tableau dashboard
+<img width="1586" alt="Screen Shot 2023-03-09 at 6 55 54 PM" src="https://user-images.githubusercontent.com/106560606/224196604-996a2ba5-2e82-4b3a-b69b-f23b50807c4f.png">
 
 
 TO BE COMPLETED:
