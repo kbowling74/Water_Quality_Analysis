@@ -6,7 +6,7 @@ a recreation area, producer of energy, and a designated natural wildlife area.
 ***
 
 ## Hypothesis
-Pollutants are significantly higher and more prevelant at marinas and boat ramps near the shore as opposed to open water further
+Pollutants are significantly higher and more prevalent at marinas and boat ramps near the shore as opposed to open water further
 away from shore.
 
 ### Tools
@@ -22,8 +22,9 @@ away from shore.
 - 4 samples taken at each site; one at surface and one from bottom of water column for both open water and shoreline
 - Each sample logged with location and descriptive details
 - Each sample was tested and logged with results for pollutants found
-- Tableau was used to map locations of sample sites
 - Excel and R studio were used to analyze data
+- Tableau was used to create interactive dashboard
+
 
 ## Analysis
 After entering results into an Excel spreadsheet it was imported into R studio for analysis. A two sample t-test was performed comparing open water and shoreline paramater values using .10 as a significance level. 
@@ -36,7 +37,7 @@ After entering results into an Excel spreadsheet it was imported into R studio f
 
 ## [Tableau Dashboard](https://public.tableau.com/views/Water_Quality_Dashboard/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
- This data was then imported to Tableau Public to visulaize results through a dashboard. A custom Mapbox map was created to better highlight Percy Priest lake and sample locations. Joins were used within Tableau on three seperate CSV documents to relate all data and give the dashboard interactive capabilities. The dashboard shows all ten sample sites distinguishing between open and shoreline locations, p-values of each parameter, and a graph that can be filtered by location and sample type (open water or shoreline). The dashobard allows users to click on specific locations or choose from a drop down list to filter for specific results that will be displayed on the chart. 
+This data was then imported to Tableau Public to visulaize results through a dashboard. A custom Mapbox map was created to better highlight Percy Priest lake and sample locations. Joins were used within Tableau on three seperate CSV documents to relate all data and give the dashboard interactive capabilities. The dashboard shows all ten sample sites distinguishing between open and shoreline locations, p-values of each parameter, and a graph that can be filtered by location and sample type (open water or shoreline). The dashobard allows users to click on specific locations or choose from a drop down list to filter for specific results that will be displayed on the chart. 
 
 ![Dashboard 1](https://user-images.githubusercontent.com/106560606/225381523-2a119364-3da7-4d28-a38a-ebd494054bba.png)
 
