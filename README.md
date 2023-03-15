@@ -37,9 +37,9 @@ After entering results into an Excel spreadsheet it was imported into R studio f
 
 ## [Tableau Dashboard](https://public.tableau.com/views/Water_Quality_Dashboard/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-This data was then imported to Tableau Public to visulaize results through a dashboard. A custom Mapbox map was created to better highlight Percy Priest lake and sample locations. Joins were used within Tableau on three seperate CSV documents to relate all data and give the dashboard interactive capabilities. The dashboard shows all ten sample sites distinguishing between open and shoreline locations, p-values of each parameter, and a graph that can be filtered by location and sample type (open water or shoreline). The dashobard allows users to click on specific locations or choose from a drop down list to filter for specific results that will be displayed on the chart. 
+This data was then imported to Tableau Public to visulaize results through a dashboard. A custom Mapbox map was created to better highlight Percy Priest lake and sample locations. Joins were used within Tableau on three seperate CSV documents to relate all data and give the dashboard interactive capabilities. The dashboard shows all ten sample sites distinguishing between open and shoreline locations, p-values of each parameter, and a graph that can be filtered by location and sample type (open water or shoreline). The dashobard allows users to click on specific locations or choose from a drop down list to filter for specific results that will be displayed on the chart. The [dashboard](https://public.tableau.com/views/Water_Quality_Dashboard/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link) is available on Tableau Public. Below is a screenshot.  
 
 ![Dashboard 1](https://user-images.githubusercontent.com/106560606/225381523-2a119364-3da7-4d28-a38a-ebd494054bba.png)
 
-The [dashboard](https://public.tableau.com/views/Water_Quality_Dashboard/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link) is available on Tableau Public. 
+ 
 
