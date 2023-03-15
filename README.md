@@ -1,26 +1,22 @@
-not completed 
 # Percy_Priest_Water_Quality_Analysis
-
-An analysis of the water quality at 5 marinas located at Percy Priest Lake. 
-
-## Tableau Public Link
-https://public.tableau.com/app/profile/kayla.bowling/viz/Water_Quality_Analysis/Sheet1?publish=yes
-
 ## Overview
 J. Percy Priest Reservoir and Dam, located near Nashville, TN is a man made fresh-water reservoir and dam. There are 14,200 acres of 
 water and 18,852 acres of public land. The reservoir and dam were originally intended as a flood control measure but instead became 
 a recreation area, producer of energy, and a designated natural wildlife area. 
+***
 
-# Hypothesis
+## Hypothesis
+***
 Pollutants are significantly higher and more prevelant at marinas and boat ramps near the shore as opposed to open water further
 away from shore.
+***
 
 ### Tools
-- Excel
-- R Studio 
-- Tableau 
 
-## Analysis
+- Excel
+- Mapbox
+- R Studio 12.0+353
+- Tableau Public 4.1
 
 ### Methodology
 - Water testing was conducted with Varify Water Test strips which test for 17 different parameters providing a range for postive tests
@@ -31,44 +27,27 @@ away from shore.
 - Each sample was tested and logged with results for pollutants found
 - Tableau was used to map locations of sample sites
 - Excel and R studio were used to analyze data
+***
+## Analysis
+***
+After entering results into an Excel spreadsheet it was imported into R studio for analysis. A two sample t-test was performed comparing open water and shoreline paramater values using .10 as a significance level. 
+- P value > .10: <b>No</b> significant difference 
+- P value < .10: Significant differnce 
 
-### Procedure (for collecting samples)
-1. All samples were tested as soon as they were collected to ensure accuracy
-2. Each test strip was placed on the sheet to the right to obtain results
-3. Shoreline samples were by scooping water from the top and bottom of an area with a container taped to a yardstick
-4. Open water samples were taken by kayaking out roughly a few thousand feet, then placing a testing strip directly in the water at the surface and using the deep-water collector to get a sample from further down in the water column
-5.Coordinates were taken at each area once a sample was taken
-<br>
-<br>
+!!!!!!!
 
-### Tableau Screenshots
-Early version of map allows for location details (lat, long, location number) when hovered over. Also filtered plot colors to distinguish shoreline and open water locations. 
+<b>Overall, there was no significant difference found between open water and shoreline samples.</b> Only two parameters, Aluminum(P=.081) and Mercury(P=.058), showed a significant difference in occurence at shorelines.
 
-![Screen Shot 2023-03-01 at 8 57 54 PM](https://user-images.githubusercontent.com/106560606/222320047-5725b099-6a9a-4bea-9210-dac19e822154.png)
+***
 
-Early version of graphs showing results for each sample based on location, type (shoreline or open water), and depth. 
-<img width="1092" alt="Screen Shot 2023-03-05 at 5 10 57 PM" src="https://user-images.githubusercontent.com/106560606/222991403-672f810c-2d44-4824-8c20-26691df14df0.png">
+## [Tableau Dashboard](https://public.tableau.com/views/Water_Quality_Dashboard/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-Early version of Mapbox map for dashboard background
-<img width="1092" alt="Screen Shot 2023-03-06 at 9 13 57 PM" src="https://user-images.githubusercontent.com/106560606/223311306-c907d4dc-11f7-4560-bce3-a5632e1cfe78.png">
+***
+ This data was then imported to Tableau Public to visulaize results through a dashboard. A custom Mapbox map was created to better highlight Percy Priest lake and sample locations. Joins were used within Tableau on three seperate CSV documents to relate all data and give the dashboard interactive capabilities. The dashboard shows all ten sample sites distinguishing between open and shoreline locations, p-values of each parameter, and a graph that can be filtered by location and sample type (open water or shoreline). The dashobard allows users to click on specific locations or choose from a drop down list to filter for specific results that will be displayed on the chart. 
 
-Improved version of the Mapbox map with darker roads and changed fonts
-<img width="1092" alt="Screen Shot 2023-03-07 at 8 20 49 PM" src="https://user-images.githubusercontent.com/106560606/223603245-8dde0fe2-a24a-41f2-a3ab-e99687374b98.png">
+The [dashboard](https://public.tableau.com/views/Water_Quality_Dashboard/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link) is available on Tableau Public. 
 
-Early Version of Dashboard
-![Screen Shot 2023-03-07 at 8 23 52 PM](https://user-images.githubusercontent.com/106560606/223603391-c9521d80-11ca-49f1-949c-5fa5cbb25b64.png)
-
-Updated version of Tableau dashboard
-<img width="1586" alt="Screen Shot 2023-03-09 at 6 55 54 PM" src="https://user-images.githubusercontent.com/106560606/224196604-996a2ba5-2e82-4b3a-b69b-f23b50807c4f.png">
+!!!! tab dash pic
 
 
-TO BE COMPLETED:
-1. Obtain EPA standards in correct format
-2. Tableau:
-  - add sheet for location name as opposed to LOC 1, etc.
-  - customize charts for open vs shoreline samples (currently orange and blue)
-  - adjust dashboard layout for each location type (open vs shoreline) graphs to show when hovered over
-3. Add EPA accepted standards to visualization
-4. update readme with screenshots from Tableau
-5. Create seperate doc for detailed methodology
-6. Add R screenshots of t-test results to readme 
+<div class='tableauPlaceholder' id='viz1678897766437' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wa&#47;Water_Quality_Dashboard&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Water_Quality_Dashboard&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wa&#47;Water_Quality_Dashboard&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1678897766437');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1077px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
